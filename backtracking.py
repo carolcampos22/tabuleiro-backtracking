@@ -71,10 +71,10 @@ def main():
        coluna_atual = nova_coluna
        tabuleiro[linha_atual][coluna_atual] = "*"
 
-       print("\n Tabuleiro atualizado:")
+       print("\n Chegada:")
        mostrar_tabuleiro(tabuleiro)
     
-    print("\n Chegou ao destino!")
+    print("\n ✅ Chegou ao destino!")
 
 if __name__ == "__main__":
     main()
